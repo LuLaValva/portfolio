@@ -1,0 +1,12 @@
+.hover-portrait {
+  width: 20em;
+  height: 20em;
+  background-image: url("../../Images/portrait.svg");
+  background-size: cover;
+  transition: background-image 0.5s ease;
+}
+
+.hover-portrait:hover {
+  background-image: url("../../Images/portrait.png");
+  transition: background-image 0.5s cubic-bezier(0, 2.5, 1, -1);
+}

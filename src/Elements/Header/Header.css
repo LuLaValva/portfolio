@@ -1,0 +1,16 @@
+.header {
+  max-width: 80em;
+  background-color: rgb(255, 230, 230);
+
+  margin: auto;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 4em;
+}
