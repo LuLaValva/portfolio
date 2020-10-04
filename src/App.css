@@ -1,0 +1,15 @@
+#fullPage {
+  width: 100%;
+  max-width: 80em;
+  margin: 1em auto;
+
+  border-radius: 0.5em;
+  overflow: hidden;
+
+  text-align: center;
+  box-shadow: 0 0 5em black;
+}
+
+body {
+  background-color: rgb(87, 43, 0);
+}

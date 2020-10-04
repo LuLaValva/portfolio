@@ -1,14 +1,12 @@
 .header {
-  max-width: 80em;
-  background-color: rgb(255, 230, 230);
-
-  margin: auto;
+  background-color: rgb(175, 129, 82);
 
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 2em;
 }
 
 h1 {
