@@ -1,5 +1,5 @@
 .header {
-  background-color: rgb(175, 129, 82);
+  background-color: var(--header-color);
 
   display: flex;
   text-align: center;

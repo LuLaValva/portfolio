@@ -1,5 +1,5 @@
 #body {
-  background-color: rgb(255, 216, 176);
+  background-color: var(--body-color);
 
   display: flex;
   justify-content: space-evenly;

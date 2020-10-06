@@ -1,5 +1,5 @@
 #footer {
-  background-color: black;
+  background-color: var(--footer-color);
 
   display: flex;
   align-items: center;

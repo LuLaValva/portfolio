@@ -11,5 +11,5 @@
 }
 
 body {
-  background-color: rgb(87, 43, 0);
+  background-color: var(--background-color);
 }
