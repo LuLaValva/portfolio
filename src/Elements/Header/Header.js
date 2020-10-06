@@ -8,7 +8,7 @@ function Header() {
       <Portrait />
       <div>
         <h1>Lucas LaValva</h1>
-        <h2>Developer, Mathematician, Graphic Designer</h2>
+        <h2>Full Time Learner</h2>
       </div>
     </div>
   );
