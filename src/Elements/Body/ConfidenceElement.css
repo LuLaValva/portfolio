@@ -1,19 +1,25 @@
+.confidence-element-wrap {
+  position: relative;
+}
+
 .element-name {
   width: 40%;
   display: inline-flex;
 }
 
 .info-box {
-  border: 1px solid var(--background-color);
   background-color: var(--body-color);
 
   border-radius: 1em;
 
   padding: 1em;
-  width: 30em;
   position: absolute;
+  left: 0.5em;
+  right: 0.5em;
 
   box-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
 
   pointer-events: none;
+
+  z-index: 1;
 }

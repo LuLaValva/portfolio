@@ -6,7 +6,7 @@ function ConfidenceElement(props) {
   const [showMessage, setShowMessage] = useState(false);
 
   return (
-    <div>
+    <div className="confidence-element-wrap">
       <div
         onMouseEnter={() => setShowMessage(true)}
         onMouseLeave={() => setShowMessage(false)}
