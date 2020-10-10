@@ -2,16 +2,13 @@ import React from "react";
 import "./ProgressBar.css";
 
 function ProgressBar(props) {
+  console.log(props.size);
   return (
     <div className="progress-bar">
-      {[...Array(props.size).keys()].map((key) => (
-        <span
-          id={key}
-          className={`progress-element progress-element-${
-            key < props.fill ? "full" : "empty"
-          }`}
-        ></span>
-      ))}
+      <span
+        className="progress-element"
+        style={{ width: `${props.fill}%` }}
+      ></span>
     </div>
   );
 }

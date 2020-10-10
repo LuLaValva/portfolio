@@ -2,8 +2,9 @@
   background-color: black;
   display: inline-flex;
   margin: 0.5ch;
-  border-radius: 1ex;
+  border-radius: 1.2ex;
   padding: 0.5ch 0.5ch 0.5ch 0;
+  width: 50%;
 }
 
 .progress-element {
@@ -13,12 +14,5 @@
   margin: 0 0 0 0.5ch;
   border-radius: 0.7ex;
   box-shadow: 0 0 1ch black inset;
-}
-
-.progress-element-full {
-  background-color: var(--body-color);
-}
-
-.progress-element-empty {
-  background-color: black;
+  background-color: var(--header-color);
 }

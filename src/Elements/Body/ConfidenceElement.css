@@ -1,4 +1,17 @@
 .element-name {
-  width: 30%;
+  width: 40%;
   display: inline-flex;
+}
+
+.info-box {
+  border: 1px solid var(--background-color);
+  background-color: var(--body-color);
+
+  border-radius: 1em;
+
+  padding: 1em;
+  width: 30em;
+  position: absolute;
+
+  box-shadow: 0 0 2em rgba(0, 0, 0, 0.5);
 }
