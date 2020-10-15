@@ -1,9 +1,13 @@
 import React from "react";
 import "./Body.css";
 import BodyElement from "./BodyElement";
+import ConfidenceTable from "./ConfidenceTable/ConfidenceTable";
+import ActivityTable from "./ActivityTable/ActivityTable";
+
 import ProgrammingLanguages from "../../FrequentlyUpdatedInfo/programmingLanguages";
 import FamiliarSoftware from "../../FrequentlyUpdatedInfo/familiarSoftware";
-import ConfidenceTable from "./ConfidenceTable/ConfidenceTable";
+import CurrentInvolvement from "../../FrequentlyUpdatedInfo/currentInvolvement";
+import RelatedExperience from "../../FrequentlyUpdatedInfo/relatedExperience";
 
 function Body() {
   return (
@@ -25,12 +29,14 @@ function Body() {
       <BodyElement title="Software">
         <ConfidenceTable info={FamiliarSoftware} />
       </BodyElement>
-      <BodyElement title="Employment">Employment</BodyElement>
-      <BodyElement title="Related Experience">Experience</BodyElement>
-      <BodyElement title="Education">Education</BodyElement>
-      <BodyElement title="Honors, Awards, Acheivements">
-        Some Acheivements
+      <BodyElement title="Current Involvement">
+        <ActivityTable info={CurrentInvolvement} />
       </BodyElement>
+      <BodyElement title="Related Experience">
+        <ActivityTable info={RelatedExperience} />
+      </BodyElement>
+      <BodyElement title="Education">Education</BodyElement>
+      {/*<BodyElement title="Honors, Awards, Acheivements">Some Acheivements</BodyElement>*/}
     </div>
   );
 }
