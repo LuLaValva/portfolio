@@ -35,7 +35,26 @@ function Body() {
       <BodyElement title="Related Experience">
         <ActivityTable info={RelatedExperience} />
       </BodyElement>
-      <BodyElement title="Education">Education</BodyElement>
+      <BodyElement title="Education">
+        <div class="education-element">
+          <h2>Rowan Univerity</h2>
+          <ul>
+            <li>
+              Bachelor of Science in <b>Computer Science</b>
+            </li>
+            <li>
+              Bachelor of Arts in <b>Mathematics</b>
+            </li>
+            <li>
+              Minor in <b>Sociology</b>
+            </li>
+            <li>
+              Concentration in <b>Honors</b>
+            </li>
+          </ul>
+          Class of '22
+        </div>
+      </BodyElement>
       {/*<BodyElement title="Honors, Awards, Acheivements">Some Acheivements</BodyElement>*/}
     </div>
   );

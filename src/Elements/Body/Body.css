@@ -6,3 +6,8 @@
   flex-wrap: wrap;
   align-items: stretch;
 }
+
+.education-element {
+  text-align: left;
+  padding: 0 1em;
+}
